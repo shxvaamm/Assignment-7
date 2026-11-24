@@ -15,7 +15,7 @@ function Home(props) {
 
   return (
     <div className="page">
-      <h2>Music App</h2>
+      <h2>Music Playlist App</h2>
       <p>Total Songs: {total}</p>
       <p>Songs in Playlist: {inPlaylist}</p>
       <p>Trending Songs: {trending}</p>

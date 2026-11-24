@@ -33,7 +33,7 @@ function Songs(props) {
       <div className="filters">
         <input
           type="text"
-          placeholder="Search songs..."
+          placeholder="Search by title or artist..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
